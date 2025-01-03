@@ -40,6 +40,7 @@ legend {
 .input-container {
   display: flex;
   flex-direction: column;
+  
 }
 
 button {
@@ -62,6 +63,19 @@ button,
 input,
 select {
   margin-bottom: 10px;
+}
+button{
+  padding: 10px 25px;
+  border: none;
+  transition: .3s ease;
+}
+button:active{
+  color: #f5f6f7;
+  background-color: var(--dark-red);
+}
+select{
+  padding: 10px 25px;
+  outline: none;
 }
 
 .output {
